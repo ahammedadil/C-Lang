@@ -1,15 +1,14 @@
-#include<stdio.h>
-int main(){
-    int arr[10];
-    int i;
-    printf("Enter the numbers");
-    for(i=0;i<5;i++)
-        scanf("%d",&arr[i]);
-        printf("Display the numbers : \n");
-        for(i=0;i<5;i++)
-        printf("arr[%d]=%d\n",i,arr[i]);
+ #include<stdio.h>
+ int main(){
+    int numbers[5];
 
-        return 0;
+    for(int i=0;i<=5;i++){
+        numbers[i]= (i=1)*10;
+    }
 
-    
-}
+    printf("array elements are:");
+    for(int i=0;i<=0;i++){
+        printf("%d",numbers[i]);
+    }
+    return 0;
+ }
